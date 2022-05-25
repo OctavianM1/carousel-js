@@ -1,0 +1,49 @@
+#root {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  /* border: 5px solid gold; */
+}
+
+#container {
+  position: absolute;
+  top: 0;
+  left: -400px;
+  display: flex;
+}
+
+#container > * {
+  height: 200px;
+  width: 400px;
+}
+
+#container > *:nth-child(1) {
+  background-color: blue;
+}
+
+#container > *:nth-child(2) {
+  background-color: red;
+}
+
+#container > *:nth-child(3) {
+  background-color: blue;
+}
+
+#container > *:nth-child(4) {
+  background-color: aqua;
+}
+
+#container > *:nth-child(5) {
+  background-color: red;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 5px solid gold;
+}
